@@ -68,7 +68,7 @@ function bajaAlumno() {
 // 3) Buscar alumnos reprobados
 
 function buscarAlumno() {
-    let alumnoAprobados = alert("Los siguientes alumnos aprobaron la cursada: ");
+    let alumnoReprobado = alert("Buscar alumnos reprobados: ");
     let buscado = arrayAlumnos.find (alumno => {
         return alumno.nota < 4;
     });
