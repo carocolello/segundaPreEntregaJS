@@ -57,8 +57,8 @@ function altaAlumno() {
 // 2) Dar de baja al último alumno
 
 function bajaAlumno() {
-    let apellido = prompt("Ingrese el apellido del alumno: (Lopez)");
-    let alumno = arrayAlumnos.find (alumno => alumno.apellido === ("lopez").toLocaleLowerCase || ("Lopez").toLocaleUpperCase);
+    let apellido = prompt("Ingrese el apellido del alumno a dar de baja: (Lopez)");
+    let alumno = arrayAlumnos.find (alumno => alumno.apellido === "Lopez");
 
     let eliminado = arrayAlumnos.pop();
     console.log(arrayAlumnos);
